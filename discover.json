@@ -28,6 +28,14 @@
       "image": "https://kevosbash.github.io/pesakit-discover/images/sample_ad3.png",
       "active": true,
       "order": 3
+    },
+    {
+      "id": "track-everything",
+      "title": "House of Tshiku",
+      "body": "Where African Heritage Meets Timeless Elegance.",
+      "image": "https://kevosbash.github.io/pesakit-discover/images/ad4.png",
+      "active": true,
+      "order": 3
     }
   ]
 }
