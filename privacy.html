@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PesaKit — Privacy Policy</title>
+<style>
+  :root{
+    --teal:#0b6b5f; --teal-d:#0b3b34; --ink:#15211e; --muted:#51635e;
+    --line:#dce7e3; --bg:#f4f8f6; --card:#ffffff; --accent:#0b6b5f;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6}
+  header{background:linear-gradient(135deg,var(--teal) 0%,var(--teal-d) 100%);color:#eafaf6;
+    padding:40px 24px 34px}
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+  header .wrap{padding:0 20px}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:700;font-size:15px;letter-spacing:.08em;opacity:.9}
+  .brand .dot{width:26px;height:26px;border-radius:7px;background:#eafaf6;color:var(--teal);
+    display:grid;place-items:center;font-size:14px;font-weight:800}
+  header h1{margin:14px 0 6px;font-size:30px;line-height:1.2}
+  header p{margin:0;opacity:.85;font-size:14px}
+  main{padding:28px 0 64px}
+  .lead{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--teal);
+    border-radius:12px;padding:16px 18px;margin:0 0 26px;font-size:16px}
+  h2{font-size:19px;margin:30px 0 10px;color:var(--teal-d)}
+  p,li{font-size:15.5px;color:#24332f}
+  a{color:var(--accent)}
+  table{width:100%;border-collapse:collapse;margin:8px 0 10px;font-size:14.5px}
+  th,td{text-align:left;padding:10px 12px;border:1px solid var(--line);vertical-align:top}
+  th{background:#eef4f2;color:var(--teal-d);font-weight:600}
+  code{background:#e9f1ee;padding:1px 6px;border-radius:6px;font-size:13.5px}
+  ul{padding-left:20px}
+  .foot{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px}
+  .contact{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-top:18px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand"><span class="dot">PK</span> PESAKIT</div>
+    <h1>Privacy Policy</h1>
+    <p>Last updated: 23 November 2026</p>
+  </div>
+</header>
+<main class="wrap">
+  <p class="lead"><strong>The one-line version: everything stays on your phone.</strong>
+     PesaKit has no servers, no account, and uploads nothing about you.</p>
+
+  <p>PesaKit turns the payment notification messages you already receive (M-Pesa and
+     bank SMS) into a private cash-management dashboard. This policy explains exactly
+     what the app accesses and what it does — and does not — do with it.</p>
+
+  <h2>What PesaKit accesses</h2>
+  <table>
+    <tr><th>Data</th><th>Why</th><th>Where it goes</th></tr>
+    <tr>
+      <td>The text of payment SMS <strong>you approve, scan, or paste</strong></td>
+      <td>To read the amount, party, fee, balance, date and reference and show them on your dashboard</td>
+      <td>Parsed and stored <strong>only</strong> in the app's private on-device database</td>
+    </tr>
+    <tr><td>Nothing else</td><td>—</td><td>—</td></tr>
+  </table>
+  <p>PesaKit does <strong>not</strong> read your contacts, your location, your other
+     (non-payment) messages, your call logs, or any account credentials.</p>
+
+  <h2>How messages reach PesaKit</h2>
+  <ul>
+    <li><strong>One-tap capture (SMS User Consent).</strong> When a new payment SMS
+        arrives, your phone's own system dialog asks whether PesaKit may read
+        <em>that single message</em>. If you tap Allow, we receive only that one
+        message. We never gain access to your inbox this way.</li>
+    <li><strong>Paste or share.</strong> You copy a message, or share it into PesaKit
+        from your Messages app. Nothing automated.</li>
+    <li><strong>Full inbox scan (optional).</strong> With your explicit permission,
+        PesaKit can scan payment messages already in your inbox from known financial
+        senders (M-Pesa, banks) to build your history. It is <strong>off by
+        default</strong>, opt-in, read-only, limited to those senders, processed on
+        your device, and you can revoke SMS access anytime in Android Settings.</li>
+  </ul>
+
+  <h2>What we do NOT do</h2>
+  <ul>
+    <li>We do <strong>not</strong> transmit your messages or transactions to any
+        server — ours or a third party's. Your financial data stays on your device.
+        (The Discover tab <em>downloads</em> advert content — images and text only —
+        but sends nothing about you; everything else works offline.)</li>
+    <li>We do <strong>not</strong> sell, share, or monetize your data.</li>
+    <li>We do <strong>not</strong> use analytics or advertising SDKs that profile you.</li>
+    <li>We do <strong>not</strong> retain anything after you delete it.</li>
+  </ul>
+
+  <h2>Retention and deletion</h2>
+  <p>Your data lives only in PesaKit's private app storage. You are always in control:</p>
+  <ul>
+    <li><strong>Settings → Clear all data</strong> permanently deletes every stored transaction.</li>
+    <li><strong>Uninstalling</strong> the app removes all of its data from your device.</li>
+  </ul>
+  <p>There is no cloud copy to request deletion of, because there is no cloud copy.</p>
+
+  <h2>Permissions summary (for app-store reviewers)</h2>
+  <table>
+    <tr><th>Permission</th><th>Use</th></tr>
+    <tr><td><code>READ_SMS</code> / <code>RECEIVE_SMS</code></td>
+        <td>Optional full-inbox scan of payment messages from known financial senders, on-device only. Off by default; shown with a prominent in-app disclosure before the request.</td></tr>
+    <tr><td>SMS User Consent API</td>
+        <td>One-tap, per-message capture of new payment SMS. Requests no permission.</td></tr>
+    <tr><td><code>INTERNET</code></td>
+        <td>Downloads the Discover tab's advert content (images + text). <strong>No personal data or transactions are ever sent.</strong></td></tr>
+    <tr><td><code>POST_NOTIFICATIONS</code></td>
+        <td>The optional daily money-insight reminder.</td></tr>
+  </table>
+
+  <div class="contact">
+    <h2 style="margin-top:0">Contact</h2>
+    <p style="margin:0">Questions about this policy or your data:
+       <a href="mailto:reachme@kelvinnjoka.com">reachme@kelvinnjoka.com</a></p>
+  </div>
+
+  <p class="foot">PesaKit — cash management from the payment messages you already receive.
+     This policy applies to the PesaKit Android app.</p>
+</main>
+</body>
+</html>
