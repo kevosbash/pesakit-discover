@@ -5,8 +5,8 @@
       "id": "spend-smarter",
       "title": "Spend smarter this month",
       "body": "See exactly where your money goes. Open Insights to explore your spending.",
-      "image": "https://kevosbash.github.io/PesaFlow-discover/images/sample_ad1.png",
-      "link": "https://kevosbash.github.io/PesaFlow-discover/",
+      "image": "https://kevosbash.github.io/pesakit-discover/images/sample_ad1.png",
+      "link": "https://kevosbash.github.io/pesakit-discover/",
       "cta": "Learn more",
       "active": true,
       "order": 1
@@ -15,8 +15,8 @@
       "id": "cut-fees",
       "title": "Cut your transaction fees",
       "body": "Simple tips to save on every M-Pesa and bank payment.",
-      "image": "https://kevosbash.github.io/PesaFlow-discover/images/sample_ad2.png",
-      "link": "https://kevosbash.github.io/PesaFlow-discover/",
+      "image": "https://kevosbash.github.io/pesakit-discover/images/sample_ad2.png",
+      "link": "https://kevosbash.github.io/pesakit-discover/",
       "cta": "Learn more",
       "active": true,
       "order": 2
@@ -25,7 +25,7 @@
       "id": "track-everything",
       "title": "Track every shilling",
       "body": "PesaFlow turns your payment SMS into a private money dashboard.",
-      "image": "https://kevosbash.github.io/PesaFlow-discover/images/sample_ad3.png",
+      "image": "https://kevosbash.github.io/pesakit-discover/images/sample_ad3.png",
       "active": true,
       "order": 3
     },
@@ -33,7 +33,7 @@
       "id": "house-of-tshiku",
       "title": "House of Tshiku",
       "body": "Where African Heritage Meets Timeless Elegance.",
-      "image": "https://kevosbash.github.io/PesaFlow-discover/images/ad4.png",
+      "image": "https://kevosbash.github.io/pesakit-discover/images/ad4.png",
       "link": "https://houseoftshiku.com/",
       "active": true,
       "order": 4
